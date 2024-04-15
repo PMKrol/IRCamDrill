@@ -1,0 +1,4 @@
+Other commands used:
+
+gocr learning:
+for i in \samples_folder\ */*pnm; do gocr -d0 -C0-9. -p ./db/ -m 256 -m 130  "$i"; done
